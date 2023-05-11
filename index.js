@@ -13,8 +13,12 @@ app.engine('hbs', expresHandlebars.engine({
 app.set('view engine','hbs')
 
 
-
 app.get('/', (req, res) =>{
+    res.render('index');
+})
+
+
+app.get('/index.html', (req, res) =>{
     res.render('index');
 })
 
