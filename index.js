@@ -24,6 +24,10 @@ app.use('/task2.htm', require('./routes/task2Route'))
 
 app.use('/task3.htm', require('./routes/task3Route'))
 
+app.use('/task4.htm', require('./routes/task4Route'))
+
+app.use('/task4-details.htm', require('./routes/task4DetailRoute'))
+
 app.listen(port, ()=>{
     console.log(`Thao beu ${port}`)
 })
